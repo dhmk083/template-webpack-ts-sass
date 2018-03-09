@@ -1,0 +1,37 @@
+{
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --hot --host 0.0.0.0 --port 80 --historyApiFallback",
+    "build": "webpack --env=true"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.40",
+    "@types/react-dom": "^16.0.4",
+    "autoprefixer": "^8.1.0",
+    "awesome-typescript-loader": "^4.0.1",
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.10",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.1.1",
+    "raf": "^3.4.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.2",
+    "typescript": "^2.7.2",
+    "uglify-js": "^3.3.13",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0",
+    "webpack-plugin-babel-uglify": "^1.0.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "rxjs": "^5.5.6"
+  }
+}
